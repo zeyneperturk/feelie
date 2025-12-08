@@ -17,7 +17,7 @@
     <EditText
         android:id="@+id/etContent"
         android:layout_width="match_parent"
-        android:layout_height="420dp"
+        android:layout_height="308dp"
         android:background="@drawable/tv_bg"
         android:gravity="top"
         android:hint="@string/hintContent"
