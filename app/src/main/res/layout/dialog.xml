@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_margin="20dp"
+        android:background="@drawable/tv_bg"
+        android:fontFamily="@font/dudu_calligraphy"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="23sp" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.zeyneperturk.zeyneperturk_hw2.customViews.CustomButton
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/btnCancel"
+            android:textSize="20sp" />
+
+        <com.zeyneperturk.zeyneperturk_hw2.customViews.CustomButton
+            android:id="@+id/btnProceed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/btnProceed"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

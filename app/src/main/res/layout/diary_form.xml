@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/tv_bg"
+        android:hint="@string/hintTitle"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:background="@drawable/tv_bg"
+        android:gravity="top"
+        android:hint="@string/hintContent"
+        android:inputType="textMultiLine"
+        android:padding="12dp" />
+
+    <LinearLayout
+        android:id="@+id/moodContainer"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp">
+
+        <ImageView
+            android:id="@+id/moodSad"
+            android:src="@drawable/sad"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp"/>
+
+        <ImageView
+            android:id="@+id/moodHappy"
+            android:src="@drawable/happy"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp"/>
+
+        <ImageView
+            android:id="@+id/moodCalm"
+            android:src="@drawable/calm"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp"/>
+
+        <ImageView
+            android:id="@+id/moodAngry"
+            android:src="@drawable/angry"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>

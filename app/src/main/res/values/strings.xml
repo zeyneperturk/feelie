@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ZeynepErturk_HW2</string>
+    <string name="title">feelie</string>
+    <string name="btnNew">new entry</string>
+    <string name="btnDeleteAll">delete all entries</string>
+    <string name="etDiaryTitle">diary title</string>
+    <string name="diaryContent">write </string>
+    <string name="tvDiaryTitle">diary entry</string>
+    <string name="btnSave">save diary</string>
+    <string name="btnDelete">delete diary</string>
+    <string name="toastName">diary title is null. please enter a valid title.</string>
+    <string name="toastContent">diary is empty. tell it more about your day.</string>
+    <string name="toastMood">you haven\'t picked a mood for the day. please do so.</string>
+    <string name="btnCancel">cancel</string>
+    <string name="btnProceed">proceed</string>
+    <string name="dialogDeleteAll">are you sure you want to delete all entries? this operation cannot be undone.\n｡𖦹°‧⭑.ᐟ</string>
+    <string name="dialogDeleteEntry">are you sure you want to delete this entry? this operation cannot be undone.\n｡𖦹°‧⭑.ᐟ</string>
+    <string name="hintTitle">diary title</string>
+    <string name="hintContent">how was your day?</string>
+    <string name="quote">this action will have consequences ꩜</string>
+</resources>

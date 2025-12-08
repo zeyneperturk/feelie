@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--    ENTRY BOX BG COLORS-->
+    <color name="happyBG">#FEF7C5</color>
+    <color name="calmBG">#D5FFC9</color>
+    <color name="sadBG">#BCD3F9</color>
+    <color name="angryBG">#FFCBBF</color>
+
+    <!--    ENTRY BOX TEXT COLORS-->
+    <color name="happyTXT">#BCD3F9</color>
+    <color name="calmTXT">#FEF7C5</color>
+    <color name="sadTXT">#D5FFC9</color>
+    <color name="angryTXT">#FEF7C5</color>
+
+    <!--    TEXTVIEW COLORS-->
+    <color name="tvBG">#FFF4FD</color>
+    <color name="tvTXT">#FFB4DA</color>
+
+    <!--    BUTTON COLORS-->
+    <color name="btnBG">#FFF8E9</color>
+    <color name="btnTXT">#FFB4DA</color>
+</resources>

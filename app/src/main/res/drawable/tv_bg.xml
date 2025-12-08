@@ -1,0 +1,17 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/tvBG" />
+
+    <stroke
+        android:width="5dp"
+        android:color="@color/tvTXT" />
+
+    <corners android:radius="20dp" />
+
+    <padding
+        android:left="12dp"
+        android:top="8dp"
+        android:right="12dp"
+        android:bottom="8dp" />
+</shape>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_scaled"
+    tools:context=".DiaryActivity">
+
+
+    <TextView
+        android:id="@+id/tvDiary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/tv_bg"
+        android:fontFamily="@font/whatnot_font"
+        android:paddingLeft="25sp"
+        android:paddingTop="15sp"
+        android:paddingRight="25sp"
+        android:paddingBottom="15sp"
+        android:text="@string/tvDiaryTitle"
+        android:textColor="@color/tvTXT"
+        android:textSize="32sp" />
+
+    <com.zeyneperturk.zeyneperturk_hw2.customViews.DiaryView
+        android:id="@+id/entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <com.zeyneperturk.zeyneperturk_hw2.customViews.CustomButton
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/btnDelete"
+            android:textSize="16sp" />
+
+        <com.zeyneperturk.zeyneperturk_hw2.customViews.CustomButton
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/btnSave"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

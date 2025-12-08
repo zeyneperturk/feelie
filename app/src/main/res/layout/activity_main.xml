@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_scaled"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="35dp"
+        android:background="@drawable/tv_bg"
+        android:fontFamily="@font/whatnot_font"
+        android:paddingLeft="25sp"
+        android:paddingTop="15sp"
+        android:paddingRight="25sp"
+        android:paddingBottom="15sp"
+        android:text="@string/title"
+        android:textColor="@color/tvTXT"
+        android:textSize="32sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/entries"
+        android:layout_width="match_parent"
+        android:layout_height="497dp"
+        android:layout_margin="15sp" />
+
+    <com.zeyneperturk.zeyneperturk_hw2.customViews.CustomButton
+        android:id="@+id/btnNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/btnNew"
+        android:textSize="20sp" />
+
+    <com.zeyneperturk.zeyneperturk_hw2.customViews.CustomButton
+        android:id="@+id/btnDeleteAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/btnDeleteAll"
+        android:textSize="20sp" />
+
+</LinearLayout>
