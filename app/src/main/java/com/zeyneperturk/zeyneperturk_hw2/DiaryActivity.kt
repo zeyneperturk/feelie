@@ -2,7 +2,6 @@ package com.zeyneperturk.zeyneperturk_hw2
 
 import android.app.Dialog
 import android.content.Intent
-import android.health.connect.datatypes.units.Length
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
@@ -15,7 +14,6 @@ import com.zeyneperturk.zeyneperturk_hw2.customViews.CustomButton
 import com.zeyneperturk.zeyneperturk_hw2.customViews.DiaryView
 import com.zeyneperturk.zeyneperturk_hw2.databinding.ActivityDiaryBinding
 import com.zeyneperturk.zeyneperturk_hw2.model.Diary
-import com.zeyneperturk.zeyneperturk_hw2.model.Mood
 import java.util.Date
 
 class DiaryActivity : AppCompatActivity() {
@@ -43,10 +41,7 @@ class DiaryActivity : AppCompatActivity() {
             binding.entry.setContent(existingDiary.content)
             binding.entry.setMoodId(existingMoodId)
 
-            // FIX 1: Apply mood color immediately
             binding.entry.updateColors(existingMoodId)
-
-            // FIX 2: Simulate mood button select so selectedMood updates correctly
             binding.entry.selectMood(existingMoodId)
         }
 

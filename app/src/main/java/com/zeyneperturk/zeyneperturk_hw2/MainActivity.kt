@@ -3,14 +3,11 @@ package com.zeyneperturk.zeyneperturk_hw2
 import android.app.Dialog
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.View
-import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -19,12 +16,10 @@ import androidx.room.Room
 import com.zeyneperturk.zeyneperturk_hw2.adapter.CustomRecyclerViewAdapter
 import com.zeyneperturk.zeyneperturk_hw2.customViews.CustomButton
 import com.zeyneperturk.zeyneperturk_hw2.databinding.ActivityMainBinding
-import com.zeyneperturk.zeyneperturk_hw2.databinding.DialogBinding
 import com.zeyneperturk.zeyneperturk_hw2.db.DiaryRoomDatabase
 import com.zeyneperturk.zeyneperturk_hw2.model.Diary
 import com.zeyneperturk.zeyneperturk_hw2.model.Mood
 import com.zeyneperturk.zeyneperturk_hw2.util.Constants
-import java.util.Collections
 
 class MainActivity : AppCompatActivity() , CustomRecyclerViewAdapter.RecyclerAdapterInterface{
 

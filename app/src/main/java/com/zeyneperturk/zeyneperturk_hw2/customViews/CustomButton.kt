@@ -1,10 +1,8 @@
 package com.zeyneperturk.zeyneperturk_hw2.customViews
 
 import android.content.Context
-import android.graphics.Color
 import android.util.AttributeSet
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.widget.AppCompatButton
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat

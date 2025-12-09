@@ -4,15 +4,10 @@ import android.content.Context
 import android.graphics.drawable.GradientDrawable
 import android.util.AttributeSet
 import android.view.LayoutInflater
-import android.widget.Button
-import android.widget.ImageView
 import android.widget.LinearLayout
-import android.widget.TextView
-import androidx.annotation.DrawableRes
 import androidx.core.content.ContextCompat
 import com.zeyneperturk.zeyneperturk_hw2.R
 import com.zeyneperturk.zeyneperturk_hw2.databinding.DiaryFormBinding
-import com.zeyneperturk.zeyneperturk_hw2.model.Diary
 import com.zeyneperturk.zeyneperturk_hw2.model.Mood
 
 class DiaryView @JvmOverloads constructor(
